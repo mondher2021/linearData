@@ -1,0 +1,44 @@
+ALGORITHM
+VAR
+i,j,somme1,somme2,temp: integer;
+etat: BOOLEAN;
+tab1, tab2 :  : ARRAY_OF integer[20];
+
+BEGIN
+write("donner le prmeier tableau \n");
+read(tab1); 
+write("donner le deuxieme tablea \n");
+read(tab2); 
+
+somme1=0;
+somme2=0;
+for(i=0;i<tab1.Lenght;i++)
+{
+    
+    temp=tab[i], etat = false;j=0;
+while (j<tab.lenght §§ etat =false)
+{
+if (temp==tab2[j])
+{
+    etat =true;
+}
+
+}
+if (etat == false)
+somme1= somme1+temp;
+
+ELSE
+    somme2 =somme2+ 2*temp;
+}
+
+
+}
+write ("la somme de proleme1 est ", somme1);
+
+write ("la somme de proleme est ", somme2);
+
+
+
+
+
+END
